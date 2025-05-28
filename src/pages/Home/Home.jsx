@@ -33,7 +33,7 @@ export default function Home(){
                             </p>
                         </div>
                         <div id='idexplore'>
-                            <NavLink id="explore" to="/destination">Explorer</NavLink>
+                            <NavLink  to="/destination" id="explore">Explorer</NavLink>
                         </div>
                     </div>
                 </div>
