@@ -2,8 +2,6 @@
     height: 100vh; 
     width: 100vw;
     margin: 0;
-    display: flex;           
-    flex-direction: column;
     background-image: url(../../assets/home/background-home-desktop.jpg);
     overflow-y: hidden;
     box-sizing: border-box;
@@ -21,23 +19,85 @@ body{
     padding-right: 20%;
     display: flex;
     justify-content: center;
-    text-align: center;
-    margin-top: 0; 
+    align-items: center;
+    margin-top: 0;
 }
 #explore{
-    background:rgba(255, 255, 255, 0.089);
-    color: white;
-    border-radius: 15px;
-    padding : 10px 20px 10px 20px;
-    text-decoration: none;
-    margin-top: 40px; 
-    width: 90px;
+    color: rgb(0, 0, 0);
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
 }
-#explore:hover{
+#idexplore:hover{
     transform: scale(1.15);
     transition: transform 0.75s;
     box-shadow: 1px 1px 6px 5px white;
+}
+#idexplore{
+    border: 2px white solid;
+    height: 140px;
+    border-radius: 50%;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.home-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.home-text {
+  width: 60%;
+  padding: 0;
+  min-width: 300px; 
+}
+.home-content{
+    width: 100%;
+}
+#textHome{
+ margin-left: auto;
+
+}
+#h2home{
+    font-size: 40px;
+}
+#titreHome{
+    width: 900px;
+}
+@media (max-width: 1400px){
+#titreHome{
+    width: 700px;
+}
+}
+
+@media (max-width: 900px) {
+  .home-text {
+    width: 100%;
+  }
+  #titreHome{
+    width: auto;
+}
+  #textHome{
+ margin-left: 0%;
+}
+  #idexplore {
+    width: 140px;
+    min-width: 140px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  #h2home{
+    font-size: 25px;
+}
 }
