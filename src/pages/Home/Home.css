@@ -1,0 +1,42 @@
+#home{
+    height: 100vh; 
+    width: 100vw;
+    margin: 0;
+    display: flex;           
+    flex-direction: column;
+    background-image: url(../../assets/home/background-home-desktop.jpg);
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+#home  p{
+    color: white;
+    font-size: 25px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0; 
+}
+#explore{
+    background:rgba(255, 255, 255, 0.089);
+    color: white;
+    border-radius: 15px;
+    padding : 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 40px; 
+    width: 90px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#explore:hover{
+    transform: scale(1.15);
+    transition: transform 0.75s;
+    box-shadow: 1px 1px 6px 5px white;
+}

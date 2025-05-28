@@ -1,0 +1,25 @@
+#destination{
+    background-image: url('../../assets/destination/background-destination-desktop.jpg');
+    margin: 0;
+    height: auto;
+    width: auto;
+    overflow-y: hidden;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#listePlanet{
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 10%;
+}
+
+#listePlanet a {
+  text-decoration: none;
+  color:violet;
+  font-weight: 700;
+}
