@@ -31,15 +31,16 @@ export default function Mars(){
                         <span style={{width:'50%', marginTop:'5%', color:'white', display:'flex', alignItems:'center', flexDirection:'column', marginLeft:'auto', marginRight:'auto'}}>
                         <p>
                         <h2 style={{fontSize:'75px' }}>
-                            MOON <br /> <br />
+                            MARS<br /> <br />
                         </h2>
 
-                            See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-                            regain perspective and come back refreshed. While you’re there, take in some history 
-                            by visiting the Luna 2 and Apollo 11 landing sites.
+                            Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+                            the tallest planetary mountain in our solar system. It’s two and a half times 
+                            the size of Everest!
 
                             Avg. distance
-                            384,400 km
+                            225 mil. km
+
 
                             <hr style={{color:'white', width:'400px'}} />
 
@@ -47,7 +48,7 @@ export default function Mars(){
                                 Est. travel time <br />
                                 <p>
                                 
-                                3 days
+                                9 months
                                 </p>
                                 
                             <p>

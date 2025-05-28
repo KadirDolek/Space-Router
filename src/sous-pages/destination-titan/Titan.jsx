@@ -31,15 +31,15 @@ export default function Moon(){
                         <span style={{width:'50%', marginTop:'5%', color:'white', display:'flex', alignItems:'center', flexDirection:'column', marginLeft:'auto', marginRight:'auto'}}>
                         <p>
                         <h2 style={{fontSize:'75px' }}>
-                            MOON <br /> <br />
+                            TITAN<br /> <br />
                         </h2>
 
-                            See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-                            regain perspective and come back refreshed. While you’re there, take in some history 
-                            by visiting the Luna 2 and Apollo 11 landing sites.
+                                The only moon known to have a dense atmosphere other than Earth, Titan 
+                                is a home away from home (just a few hundred degrees colder!). As a 
+                                bonus, you get striking views of the Rings of Saturn.
 
-                            Avg. distance
-                            384,400 km
+                                Avg. distance
+                                1.6 bil. km
 
                             <hr style={{color:'white', width:'400px'}} />
 
@@ -47,7 +47,7 @@ export default function Moon(){
                                 Est. travel time <br />
                                 <p>
                                 
-                                3 days
+                                7 years
                                 </p>
                                 
                             <p>
