@@ -10,9 +10,10 @@ export default function Navbar(){
     return(
         <>
             <div id='navbargroup'>
-                <div>
+                <div id='logoHome'>
                     <img src={logo} alt="Logo" />
                 </div>
+                <hr className="nav-separator" />
                 <nav className="navbar navbar-expand-lg bg-body-trasnparent center-navbar">
                 <div className="container-fluid">
                     <button

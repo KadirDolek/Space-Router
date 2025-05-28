@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Home from './pages/Home/home'
+import Home from './pages/Home/Home'
 import Tech from './pages/Tech/Tech'
 import Destination from './pages/Destination/Destination'
 import Crew from './pages/Crew/Crew'
