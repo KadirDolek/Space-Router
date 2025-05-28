@@ -13,13 +13,25 @@
 #listePlanet{
 
     display: flex;
-    justify-content: center;
-    gap: 5%;
-    margin-top: 10%;
+    justify-content: flex-end;
+    gap: 2%;
+    height: 450px;
 }
 
+
 #listePlanet a {
-  text-decoration: none;
-  color:violet;
-  font-weight: 700;
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    font-weight: 700;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
 }
+
+#listePlanet a.active {
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.329);
+}
+
+
+

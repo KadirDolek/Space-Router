@@ -18,7 +18,7 @@ export default function Home(){
                 <div className="home-content">
                     <div className="home-flex">
                         <div className="home-text">
-                            <p id='titreHome' style={{ marginTop: '17.5%', display:'flex', flexDirection:'column', textAlign:'center' }}>
+                            <p id='titreHome' style={{ marginTop: '15%', display:'flex', flexDirection:'column'}}>
                               <div>
                                     <h2 id='h2home'>
                                         So, you want to travel to     

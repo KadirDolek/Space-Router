@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 import logo from '../../assets/shared/logo.svg' // <-- importe le logo
 
@@ -30,24 +30,64 @@ export default function Navbar(){
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                        <Link to="/" style={{color:'white', fontWeight:'bold'}} className="nav-link active" aria-current="page" href="#">
-                            Home
-                        </Link>
+                            <NavLink 
+                                to="/" 
+                                className={({isActive}) => 
+                                    isActive ? "nav-link active" : "nav-link"
+                                }
+                                style={({isActive}) => ({
+                                    color: 'white',
+                                    fontWeight: 'bold',
+                                    borderBottom: isActive ? '2px solid white' : 'none'
+                                })}
+                            >
+                                Home
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                        <Link to="/destination" style={{color:'white', fontWeight:'bold'}} className="nav-link" href="#">
-                            Destination
-                        </Link>
+                            <NavLink 
+                                to="/destination" 
+                                className={({isActive}) => 
+                                    isActive ? "nav-link active" : "nav-link"
+                                }
+                                style={({isActive}) => ({
+                                    color: 'white',
+                                    fontWeight: 'bold',
+                                    borderBottom: isActive ? '2px solid white' : 'none'
+                                })}
+                            >
+                                Destination
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                        <Link to="/crew" style={{color:'white', fontWeight:'bold'}} className="nav-link" href="#">
-                            Crew
-                        </Link>
+                            <NavLink 
+                                to="/crew" 
+                                className={({isActive}) => 
+                                    isActive ? "nav-link active" : "nav-link"
+                                }
+                                style={({isActive}) => ({
+                                    color: 'white',
+                                    fontWeight: 'bold',
+                                    borderBottom: isActive ? '2px solid white' : 'none'
+                                })}
+                            >
+                                Crew
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                        <Link to ='/tech' style={{color:'white', fontWeight:'bold'}} className="nav-link" href="#">
-                            Tech
-                        </Link>
+                            <NavLink 
+                                to ='/tech' 
+                                className={({isActive}) => 
+                                    isActive ? "nav-link active" : "nav-link"
+                                }
+                                style={({isActive}) => ({
+                                    color: 'white',
+                                    fontWeight: 'bold',
+                                    borderBottom: isActive ? '2px solid white' : 'none'
+                                })}
+                            >
+                                Tech
+                            </NavLink>
                         </li>
                     </ul>
                     </div>

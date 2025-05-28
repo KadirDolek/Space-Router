@@ -1,41 +1,61 @@
 import Navbar from "../../sous-pages/Navbar/Navbar"
-import { Outlet, Link } from "react-router-dom"
+import { Outlet, Link, NavLink } from "react-router-dom"
 import titanImg from '../../assets/destination/image-titan.png'
 
-export default function Titan(){
-
-
-
+export default function Moon(){
     return(
-
-           <div id="destination">
-                <Navbar/>
-                <div id="listePlanet">
-                    
-                    <Link to="/destination/euro">Europa</Link>
-                    <Link to="/destination/mars">Mars</Link>
-                    <Link to="/destination/moon">Moon</Link>
-                    <Link to="/destination/titan">Titan</Link>
-                </div>
-                <div style={{width:'100%', paddingLeft:'10%', paddingRight:'10%', display:'flex'}}>
-                    <span style={{width:'50%', marginTop:'10%', color:'white', display:'flex', alignItems:'center', flexDirection:'column'}}>
-                        <p style={{fontSize:'25px'}}>
-                            Titan: <br /> <br />
-                        </p>
-                            The only moon known to have a dense atmosphere other than Earth, Titan 
-                            is a home away from home (just a few hundred degrees colder!). As a 
-                            bonus, you get striking views of the Rings of Saturn.
-
-                            Avg. distance
-                            1.6 bil. km
-
-                            Est. travel time
-                            7 years
-                    </span>
-                    <p style={{width:'50%', marginTop:'10%', display:'flex', justifyContent:'center'}}>
+        <div id="destination">
+            <Navbar/>
+            
+            <div style={{width:'100%', paddingLeft:'10%', paddingRight:'10%', display:'flex', flexDirection:'column'}}>
+                <h1 style={{
+                    color: 'white',
+                    marginBottom: '70px',
+                    marginTop:'30px'
+                }}>
+                   01. Pick Your Destination
+                </h1>
+                
+                <div style={{display:'flex'}}>
+                    <p style={{width:'50%', display:'flex', justifyContent:'center', marginTop:'5%'}}>
                         <img id='euro' src={titanImg} alt="" />
                     </p>
+                    
+                    <div id="listePlanet" style={{display:'flex', flexDirection:'column', width:'50%'}}>
+                        <div style={{display:'flex', gap:'5%', justifyContent:'center'}}>
+                            <NavLink to="/destination/euro">Europa</NavLink>
+                            <NavLink to="/destination/mars">Mars</NavLink>
+                            <NavLink to="/destination/moon">Moon</NavLink>
+                            <NavLink to="/destination/titan">Titan</NavLink>
+                        </div>
+                        <span style={{width:'50%', marginTop:'5%', color:'white', display:'flex', alignItems:'center', flexDirection:'column', marginLeft:'auto', marginRight:'auto'}}>
+                        <p>
+                        <h2 style={{fontSize:'75px' }}>
+                            MOON <br /> <br />
+                        </h2>
+
+                            See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+                            regain perspective and come back refreshed. While you’re there, take in some history 
+                            by visiting the Luna 2 and Apollo 11 landing sites.
+
+                            Avg. distance
+                            384,400 km
+
+                            <hr style={{color:'white', width:'400px'}} />
+
+                            </p>
+                                Est. travel time <br />
+                                <p>
+                                
+                                3 days
+                                </p>
+                                
+                            <p>
+                        </p>
+                    </span>
+                    </div>
                 </div>
             </div>
+        </div>
     )
 }
