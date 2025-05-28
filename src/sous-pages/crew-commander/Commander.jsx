@@ -31,7 +31,7 @@ export default function Commander(){
                         }}>
                             <p style={{fontSize:'60px', marginTop:'15%' }}>
                                <p style={{marginBottom:'0'}}>
-                                Commander
+                                    Commander
                                 </p>
                                 <p style={{marginTop:'0'}}>
                                     Douglas Hurley

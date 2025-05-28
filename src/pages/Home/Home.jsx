@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Navbar from '../../sous-pages/Navbar/Navbar'
 import './Home.css'
 
@@ -33,7 +33,7 @@ export default function Home(){
                             </p>
                         </div>
                         <div id='idexplore'>
-                            <a id="explore" href="/destination">Explorer</a>
+                            <NavLink id="explore" href="/destination">Explorer</NavLink>
                         </div>
                     </div>
                 </div>
