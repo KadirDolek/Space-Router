@@ -29,9 +29,9 @@ export default function Commander(){
                             marginLeft: '0',       
                             marginRight: 'auto'    
                         }}>
-                            <p style={{fontSize:'65px', marginTop:'15%' }}>
+                            <p style={{fontSize:'60px', marginTop:'15%' }}>
                                <p style={{marginBottom:'0'}}>
-                                Commander:
+                                Commander
                                 </p>
                                 <p style={{marginTop:'0'}}>
                                     Douglas Hurley

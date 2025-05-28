@@ -5,46 +5,61 @@ import { NavLink } from "react-router-dom"
 
 
 
-export default function Engineer(){
+export default function Commander(){
      return(
-
             <div id="crew">
                 <Navbar/>
-                <div style={{width:'100%', paddingLeft:'10%', paddingRight:'10%', display:'flex', flexWrap:'wrap'}}>
+                <div style={{width:'100%', paddingLeft:'10%', paddingRight:'10%', display:'flex', flexDirection:'column'}}>
                     <h1 style={{
-                    color: 'white',
-                    marginBottom: '70px',
-                    marginTop:'30px'
-                }}>
-                   02. Meet your crew
-                </h1>
-                    <span style={{width:'500px', marginTop:'10%', color:'white', display:'flex', alignItems:'center', flexDirection:'column', marginLeft:'auto', marginRight:'auto'}}>
-                        <p style={{fontSize:'65px' }}>
-                           <p style={{marginBottom:'0'}}>
-                            Commander:
-                            </p>
-                            <p style={{marginTop:'0'}}>
-                                Douglas Hurley
-                            </p>
-                        </p>
-                            
+                        color: 'white',
+                        marginBottom: '40px',
+                        marginTop:'30px',
+                        textAlign: 'left',
+                        fontSize:'60px'
+                    }}>
+                        <span style={{opacity: '0.25'}}>02.</span> Meet your crew
+                    </h1>
 
-                            Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
-                            and former NASA astronaut. He launched into space for the third time as 
-                            commander of Crew Dragon Demo-2.
+                    <div style={{display:'flex', flexWrap:'wrap'}}>
+                        <span style={{
+                            width:'500px', 
+                            color:'white', 
+                            display:'flex',
+                            flexDirection:'column',
+                            alignItems:'flex-start',
+                            marginLeft: '0',       
+                            marginRight: 'auto'    
+                        }}>
+                            <p style={{fontSize:'60px', marginTop:'15%' }}>
+                               <p style={{marginBottom:'0'}}>
+                                Flight Engineer
+                                </p>
+                                <p style={{marginTop:'0'}}>
+                                    Anousheh Ansari
+                                </p>
+                            </p>
+
+                                Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+                                Ansari was the fourth self-funded space tourist, the first self-funded woman to 
+                                fly to the ISS, and the first Iranian in space.
                             <div id="linkCrew">
                                 <NavLink to="/crew/commander">O</NavLink>
                                 <NavLink to="/crew/engineer">O</NavLink>
                                 <NavLink to="/crew/pilot">O</NavLink>
                                 <NavLink to="/crew/spec">O</NavLink>
                             </div>
-                    </span>   
-                     
-                    
-                    <p style={{width:'500px', marginTop:'7%', display:'flex', justifyContent:'center', marginLeft:'auto', marginRight:'auto'}}>
-                        <img id='people' src={imgEngineer} alt="" />
-                    </p>
-                
+                        </span>
+
+                        <p style={{
+                            width:'500px', 
+                            display:'flex', 
+                            justifyContent:'center', 
+                            marginLeft:'auto', 
+                            marginRight:'auto'
+                        }}>
+                            <img id='people' src={imgEngineer} alt="" />
+                        </p>
+                    </div>
                 </div>
             </div>
     )
