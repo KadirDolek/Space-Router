@@ -1,3 +1,25 @@
 #people{
-    height: 300px;
+    height: 590px;
+    margin-top: 5%;
+}
+
+#linkCrew{
+    display: flex;
+    gap: 10%;
+    font-size: 30px;
+    margin-top: 20%;
+}
+
+#linkCrew a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.397);
+    transition: color 0.3s ease;
+}
+
+#linkCrew a.active {
+    color: white;  /* Point blanc plein quand actif */
+}
+
+#linkCrew a:hover {
+    color: rgba(255, 255, 255, 0.7);
 }

@@ -41,7 +41,7 @@ export default function Navbar(){
                                     borderBottom: isActive ? '2px solid white' : 'none'
                                 })}
                             >
-                                Home
+                                00 Home
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -56,7 +56,7 @@ export default function Navbar(){
                                     borderBottom: isActive ? '2px solid white' : 'none'
                                 })}
                             >
-                                Destination
+                                01 Destination
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -71,7 +71,7 @@ export default function Navbar(){
                                     borderBottom: isActive ? '2px solid white' : 'none'
                                 })}
                             >
-                                Crew
+                                02 Crew
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -86,7 +86,7 @@ export default function Navbar(){
                                     borderBottom: isActive ? '2px solid white' : 'none'
                                 })}
                             >
-                                Tech
+                                03 Tech
                             </NavLink>
                         </li>
                     </ul>

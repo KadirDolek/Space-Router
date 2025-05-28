@@ -34,14 +34,12 @@ export default function Moon(){
                         <h2 style={{fontSize:'75px' }}>
                             MOON <br /> <br />
                         </h2>
-
                             See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
                             regain perspective and come back refreshed. While you’re there, take in some history 
                             by visiting the Luna 2 and Apollo 11 landing sites.
 
                             Avg. distance
                             384,400 km
-
                             <hr style={{color:'white', width:'400px'}} />
 
                             </p>
