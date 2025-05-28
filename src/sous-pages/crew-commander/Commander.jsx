@@ -8,16 +8,16 @@ export default function Commander(){
      return(
             <div id="crew">
                 <Navbar/>
-                <div style={{width:'100%', paddingLeft:'10%', paddingRight:'10%', display:'flex', flexDirection:'column'}}>
-                    <h1 style={{
-                        color: 'white',
-                        marginBottom: '40px',
-                        marginTop:'30px',
-                        textAlign: 'left',
-                        fontSize:'60px'
-                    }}>
-                        <span style={{opacity: '0.25'}}>02.</span> Meet your crew
-                    </h1>
+                                <div style={{width:'100%', paddingLeft:'10%', paddingRight:'10%', display:'flex', flexDirection:'column'}}>
+                                    <h1 style={{
+                                        color: 'white',
+                                        marginBottom: '40px',
+                                        marginTop:'30px',
+                                        textAlign: 'left',
+                                        fontSize:'60px'
+                                    }}>
+                                        <span style={{opacity: '0.25'}}>02.</span> Meet your crew
+                                    </h1>
 
                     <div style={{display:'flex', flexWrap:'wrap'}}>
                         <span style={{

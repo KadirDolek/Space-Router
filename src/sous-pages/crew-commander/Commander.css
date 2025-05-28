@@ -2,24 +2,41 @@
     height: 590px;
     margin-top: 5%;
 }
-
+#h1Text{
+    color: 'white';
+    margin-bottom: 40px;
+    margin-top:30px;
+    text-align: 'left';
+    font-size: 60px;
+}
 #linkCrew{
     display: flex;
     gap: 10%;
     font-size: 30px;
     margin-top: 20%;
+    justify-content: center;
 }
 
 #linkCrew a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.397);
     transition: color 0.3s ease;
+    
 }
 
 #linkCrew a.active {
-    color: white;  /* Point blanc plein quand actif */
+    color: white; 
 }
 
 #linkCrew a:hover {
     color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1480px){
+
+    #people{
+        height:380px;
+    }
+
+    
 }

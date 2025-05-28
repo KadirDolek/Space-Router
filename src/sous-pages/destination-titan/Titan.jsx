@@ -2,12 +2,12 @@ import Navbar from "../../sous-pages/Navbar/Navbar"
 import { Outlet, Link, NavLink } from "react-router-dom"
 import titanImg from '../../assets/destination/image-titan.png'
 
-export default function Moon(){
+export default function Mars(){
     return(
         <div id="destination">
             <Navbar/>
             
-            <div style={{width:'100%', paddingLeft:'10%', paddingRight:'10%', display:'flex', flexDirection:'column'}}>
+            <div style={{width:'100%', paddingLeft:'10%', paddingRight:'10%', display:'flex', flexDirection:'column', flexWrap:'wrap'}}>
                 <h1 style={{
                     color: 'white',
                     marginBottom: '70px',
@@ -16,12 +16,12 @@ export default function Moon(){
                    01. Pick Your Destination
                 </h1>
                 
-                <div style={{display:'flex'}}>
-                    <p style={{width:'50%', display:'flex', justifyContent:'center', marginTop:'5%'}}>
+                <div style={{display:'flex', flexWrap:'wrap'}}>
+                    <p style={{width:'50%', display:'flex', justifyContent:'center', marginTop:'5%', minWidth:'300px', marginLeft:'auto', marginRight:'auto', marginBottom:'20%'}}>
                         <img id='euro' src={titanImg} alt="" />
                     </p>
                     
-                    <div id="listePlanet" style={{display:'flex', flexDirection:'column', width:'50%'}}>
+                    <div id="listePlanet" style={{display:'flex', flexDirection:'column', width:'50%', minWidth:'300px', marginLeft:'auto', marginRight:'auto'}}>
                         <div style={{display:'flex', gap:'5%', justifyContent:'center'}}>
                             <NavLink to="/destination/euro">Europa</NavLink>
                             <NavLink to="/destination/mars">Mars</NavLink>
@@ -34,20 +34,24 @@ export default function Moon(){
                             TITAN<br /> <br />
                         </h2>
 
-                                The only moon known to have a dense atmosphere other than Earth, Titan 
-                                is a home away from home (just a few hundred degrees colder!). As a 
-                                bonus, you get striking views of the Rings of Saturn.
+                            The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+                            winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+                            ice skating, curling, hockey, or simple relaxation in your snug 
+                            wintery cabin.
+                                <hr /> <br />
+                                    <p style={{textAlign:'center'}}>
 
-                                Avg. distance
-                                1.6 bil. km
+                                    Avg. distance
+                                        1.6 bil. km
+                                    </p>
+
 
                             <hr style={{color:'white', width:'400px'}} />
 
                             </p>
                                 Est. travel time <br />
                                 <p>
-                                
-                                7 years
+                                   7 years
                                 </p>
                                 
                             <p>
